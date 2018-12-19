@@ -27,7 +27,7 @@ li {
   height: 70px;;
   background-color: rgb(94, 143, 185);
   color: white;
-  
+  z-index: 10;
 }
 
 .title-disp {
@@ -39,6 +39,10 @@ h3 {
   text-align: right;
   margin-top: 25px;
   margin-right: 35px;
+}
+
+.row {
+  margin-top: 80px;
 }
 
 .img-container {

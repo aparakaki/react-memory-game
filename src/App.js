@@ -74,9 +74,7 @@ class App extends React.Component {
                         </li>
                     </ul>
                 </div>
-                <header className="header">
-                    <h1 className="display-4">Memory Game</h1>
-                </header>
+
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className={this.state.gameOver ? "col-md-8 img-container img-shake" : "col-md-8 img-container"}>
